@@ -20,6 +20,10 @@
   function setInlineSuggestion(cm, { text, pos }) {
     clearInlineSuggestion(cm);
 
+    if (!text) {
+      return;
+    }
+
     const { line, ch } = pos;
     const textLines = text.split("\n");
     const el = document.createElement("pre");
@@ -72,7 +76,6 @@
         suggest(cm);
       },
       Tab: (cm) => {
-        console.log("tabbing");
         if (!cm.state.inlineSuggestion) {
           return;
         }

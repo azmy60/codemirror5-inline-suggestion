@@ -1,6 +1,6 @@
 {
   "name": "codemirror5-inline-suggestion",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An extension to display inline suggestion in CodeMirror v5",
   "main": "index.js",
   "author": "Mohammad Azmi",
