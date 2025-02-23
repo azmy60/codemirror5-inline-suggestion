@@ -4,5 +4,25 @@
   "description": "An extension to display inline suggestion in CodeMirror v5",
   "main": "index.js",
   "author": "Mohammad Azmi",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azmy60/codemirror5-inline-suggestion.git"
+  },
+  "keywords": [
+    "inline",
+    "suggestion",
+    "autocomplete",
+    "copilot",
+    "ai",
+    "codemirror",
+    "codemirror5"
+  ],
+  "bugs": {
+    "url": "https://github.com/azmy60/codemirror5-inline-suggestion/issues"
+  },
+  "homepage": "https://github.com/azmy60/codemirror5-inline-suggestion#readme"
 }
